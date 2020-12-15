@@ -1,0 +1,9 @@
+tmp/
+lib/
+bin/
+*.dwarf
+dump.rdb
+klaxon
+shard.lock
+config.yaml
+collection.yaml

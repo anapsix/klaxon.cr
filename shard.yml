@@ -1,0 +1,21 @@
+name: klaxon
+version: 0.1.0
+description: Alerts based on Elasticsearch queries.
+
+authors:
+- Anastas Dancha <anapsix@random.io>
+
+license: MIT
+
+dependencies:
+  schedule:
+    github: hugoabonizio/schedule.cr
+  email:
+    github: arcage/crystal-email
+
+executables:
+- klaxon
+
+targets:
+  klaxon:
+    main: src/klaxon.cr
